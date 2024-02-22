@@ -1,0 +1,23 @@
+{
+  "name": "frontend-minio-js",
+  "version": "1.0.0",
+  "description": "minioclient",
+  "keywords": [
+    "minio"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "ysy",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "minio": "^7.1.3",
+    "node-polyfill-webpack-plugin": "^3.0.0"
+  }
+}
